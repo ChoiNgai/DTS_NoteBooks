@@ -3,7 +3,7 @@ let searchBooks = document.getElementById("search-box");
 
 /** @start 添加元素 */
 [
-  { id: "ProgramingLanguage", title: "编程语言(Python、C++、MATLAB)", icon: "" },
+  { id: "ProgramingLanguage", title: "编程语言(Python、C++、MATLAB)", icon: "" }, 
   { id: "ComputerBasics",title: "计算机基础(数据结构、计算机网络、操作系统)",icon: "",},
   { id: "DataBase", title: "数据库(MySQL、Redis、Ti-DB)", icon: "" },
   { id: "BigData", title: "大数据框架与组件(Hadoop、Hive、Zookeeper、Spark...)", icon: "" },
@@ -11,6 +11,7 @@ let searchBooks = document.getElementById("search-box");
   {id: "MachineLearning",title: "机器学习(聚类、分类、降维、神经网络)",icon: "",},
   { id: "SRE", title: "运维开发", icon: "" },
   { id: "Web", title: "Web前端", icon: "" },
+  { id: "PCclient", title: "PC客户端", icon: "" },
 ].forEach(({ id, title, icon }) => {
   document.addEventListener("DOMContentLoaded", () => {
     drawChartBook(id);
@@ -65,62 +66,73 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "C Primer Plus",
-            previewLink: "https://ng-tech.icu/Awesome-Lists",
+            previewLink: "https://i.loli.net/2021/05/22/aVY9ij23l7WT5sp.jpg",
             imageLinks: {
-              thumbnail: "https://i.loli.net/2021/05/22/aqZzmOuedXpv3Co.jpg",
+              thumbnail: "https://pic.netbian.com/uploads/allimg/210216/175230-16134691507a8b.jpg",
             },
             categories: ["C/C++"],
           },
         },
         {
           volumeInfo: {
-            title: "速学速查手册",
-            previewLink: "https://ng-tech.icu/Awesome-CheatSheets",
+            title: "C语言教程(C语言中文网)",
+            previewLink: "http://c.biancheng.net/c/",
             imageLinks: {
-              thumbnail: "https://s2.ax1x.com/2020/01/18/19nPxS.png",
+              thumbnail: "https://pic.netbian.com/uploads/allimg/210413/232817-1618327697f103.jpg",
             },
-            categories: ["Awesome CheatSheets"],
+            categories: ["C/C++"],
           },
         },
         {
           volumeInfo: {
-            title: "求职面试必备",
-            previewLink: "https://ng-tech.icu/Awesome-Interviews",
+            title: "C++教程(C语言中文网)",
+            previewLink: "http://c.biancheng.net/c/",
             imageLinks: {
-              thumbnail: "https://s2.ax1x.com/2020/01/18/19ne5q.png",
+              thumbnail: "https://pic.netbian.com/uploads/allimg/210110/204113-161028247361da.jpg",
             },
-            categories: ["Awesome Interviews"],
+            categories: ["C/C++"],
           },
         },
         {
           volumeInfo: {
-            title: "程序员进阶指南",
-            previewLink: "https://ng-tech.icu/Awesome-Vision-and-RoadMaps",
+            title: "C语言教程(菜鸟教程)",
+            previewLink: "https://www.runoob.com/cprogramming/c-tutorial.html",
             imageLinks: {
-              thumbnail: "https://s2.ax1x.com/2020/01/18/19n1r4.png",
+              thumbnail: "https://pic.netbian.com/uploads/allimg/210223/232024-161409362427c1.jpg",
             },
             categories: ["Vision", "RoadMaps"],
           },
         },
         {
           volumeInfo: {
-            title: "知识脉络思维脑图",
-            previewLink: "https://ng-tech.icu/Awesome-MindMaps",
+            title: "C语言标准库(菜鸟教程)",
+            previewLink: "https://www.runoob.com/cprogramming/c-standard-library.html",
             imageLinks: {
-              thumbnail: "https://s2.ax1x.com/2020/01/18/19naRK.png",
+              thumbnail: "https://pic.netbian.com/uploads/allimg/210223/231925-1614093565925d.jpg",
             },
-            categories: ["Awesome MindMaps"],
+            categories: ["C/C++","标准库"],
           },
         },
         {
           volumeInfo: {
-            title: "开源书籍（.pdf）汇总",
+            title: "Python3官方中文文档",
             previewLink:
-              "https://github.com/wx-chevalier/Awesome-CS-Books-and-Digests",
+              "https://docs.python.org/zh-cn/3/",
             imageLinks: {
-              thumbnail: "https://s2.ax1x.com/2020/01/18/19nBse.png",
+              thumbnail: "https://pic.netbian.com/uploads/allimg/210106/223556-16099437560fa6.jpg",
             },
-            categories: ["Awesome CS-Books and Digests"],
+            categories: ["C/C++"],
+          },
+        },
+		{
+          volumeInfo: {
+            title: "Python速学笔记(廖雪峰)",
+            previewLink:
+              "https://www.liaoxuefeng.com/wiki/1016959663602400",
+            imageLinks: {
+              thumbnail: "https://pic.netbian.com/uploads/allimg/210125/233601-1611588961e251.jpg",
+            },
+            categories: ["C/C++"],
           },
         },
       ];
@@ -135,7 +147,7 @@ const getBooks = async (book) => {
             imageLinks: {
               thumbnail: getCover("Java Series"),
             },
-            categories: ["Java", "Spring"],
+            categories: ["数据结构"],
           },
         },
         {
@@ -502,6 +514,51 @@ const getBooks = async (book) => {
       break;
     }
     case "Web": {
+      data = [
+        {
+          volumeInfo: {
+            title: "产品设计",
+            previewLink: "https://ng-tech.icu/Product-Series/#/",
+            imageLinks: {
+              thumbnail: getCover("Product Series"),
+            },
+            categories: ["Product Series"],
+          },
+        },
+        {
+          volumeInfo: {
+            title: "创业",
+            previewLink: "https://ng-tech.icu/Business-Series/#/",
+            imageLinks: {
+              thumbnail: getCover("Business Series"),
+            },
+            categories: ["Business Series"],
+          },
+        },
+        {
+          volumeInfo: {
+            title: "行业迷思",
+            previewLink: "https://ng-tech.icu/Industry-Series/#/",
+            imageLinks: {
+              thumbnail: getCover("Industry Series"),
+            },
+            categories: ["Industry Series"],
+          },
+        },
+        {
+          volumeInfo: {
+            title: "投资理财",
+            previewLink: "https://ng-tech.icu/Financial-Series/#/",
+            imageLinks: {
+              thumbnail: getCover("Financial Series"),
+            },
+            categories: ["Financial Series"],
+          },
+        },
+      ];
+      break;
+    }
+	case "PCclient": {
       data = [
         {
           volumeInfo: {
