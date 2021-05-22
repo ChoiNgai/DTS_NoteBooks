@@ -78,7 +78,7 @@ const getBooks = async (book) => {
             title: "C语言教程(C语言中文网)",
             previewLink: "http://c.biancheng.net/c/",
             imageLinks: {
-              thumbnail: "https://pic.netbian.com/uploads/allimg/210413/232817-1618327697f103.jpg",
+              thumbnail: "images/232817-1618327697f103.jpg",
             },
             categories: ["C/C++"],
           },
@@ -88,7 +88,7 @@ const getBooks = async (book) => {
             title: "C++教程(C语言中文网)",
             previewLink: "http://c.biancheng.net/c/",
             imageLinks: {
-              thumbnail: "https://pic.netbian.com/uploads/allimg/210110/204113-161028247361da.jpg",
+              thumbnail: "images/204113-161028247361da.jpg",
             },
             categories: ["C/C++"],
           },
@@ -98,7 +98,7 @@ const getBooks = async (book) => {
             title: "C语言教程(菜鸟教程)",
             previewLink: "https://www.runoob.com/cprogramming/c-tutorial.html",
             imageLinks: {
-              thumbnail: "https://pic.netbian.com/uploads/allimg/210223/232024-161409362427c1.jpg",
+              thumbnail: "images/232024-161409362427c1.jpg",
             },
             categories: ["Vision", "RoadMaps"],
           },
@@ -108,7 +108,7 @@ const getBooks = async (book) => {
             title: "C语言标准库(菜鸟教程)",
             previewLink: "https://www.runoob.com/cprogramming/c-standard-library.html",
             imageLinks: {
-              thumbnail: "https://pic.netbian.com/uploads/allimg/210223/231925-1614093565925d.jpg",
+              thumbnail: "images/231925-1614093565925d.jpg",
             },
             categories: ["C/C++","标准库"],
           },
@@ -119,7 +119,7 @@ const getBooks = async (book) => {
             previewLink:
               "https://docs.python.org/zh-cn/3/",
             imageLinks: {
-              thumbnail: "https://pic.netbian.com/uploads/allimg/210106/223556-16099437560fa6.jpg",
+              thumbnail: "images/223556-16099437560fa6.jpg",
             },
             categories: ["C/C++"],
           },
@@ -130,7 +130,7 @@ const getBooks = async (book) => {
             previewLink:
               "https://www.liaoxuefeng.com/wiki/1016959663602400",
             imageLinks: {
-              thumbnail: "https://pic.netbian.com/uploads/allimg/210125/233601-1611588961e251.jpg",
+              thumbnail: "images/233601-1611588961e251.jpg",
             },
             categories: ["C/C++"],
           },
