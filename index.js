@@ -83,37 +83,7 @@ const getBooks = async (book) => {
             categories: ["C/C++"],
           },
         },
-        {
-          volumeInfo: {
-            title: "C++教程(C语言中文网)",
-            previewLink: "http://c.biancheng.net/c/",
-            imageLinks: {
-              thumbnail: "images/204113-161028247361da.jpg",
-            },
-            categories: ["C/C++"],
-          },
-        },
-        {
-          volumeInfo: {
-            title: "C语言教程(菜鸟教程)",
-            previewLink: "https://www.runoob.com/cprogramming/c-tutorial.html",
-            imageLinks: {
-              thumbnail: "images/232024-161409362427c1.jpg",
-            },
-            categories: ["Vision", "RoadMaps"],
-          },
-        },
-        {
-          volumeInfo: {
-            title: "C语言标准库(菜鸟教程)",
-            previewLink: "https://www.runoob.com/cprogramming/c-standard-library.html",
-            imageLinks: {
-              thumbnail: "images/231925-1614093565925d.jpg",
-            },
-            categories: ["C/C++","标准库"],
-          },
-        },
-        {
+		        {
           volumeInfo: {
             title: "Python3官方中文文档",
             previewLink:
@@ -135,59 +105,90 @@ const getBooks = async (book) => {
             categories: ["C/C++"],
           },
         },
+		{
+          volumeInfo: {
+            title: "MATLAB中文文档",
+            previewLink:
+              "https://ww2.mathworks.cn/help/matlab/index.html",
+            imageLinks: {
+              thumbnail: "images/222442-15997478827b72.jpg",
+            },
+            categories: ["MATLAB"],
+          },
+        },
+        {
+          volumeInfo: {
+            title: "C++教程(C语言中文网)",
+            previewLink: "http://c.biancheng.net/c/",
+            imageLinks: {
+              thumbnail: "images/204113-161028247361da.jpg",
+            },
+            categories: ["C/C++"],
+          },
+        },
+        {
+          volumeInfo: {
+            title: "C语言教程(菜鸟教程)",
+            previewLink: "https://www.runoob.com/cprogramming/c-tutorial.html",
+            imageLinks: {
+              thumbnail: "images/232024-161409362427c1.jpg",
+            },
+            categories: ["C/C++"],
+          },
+        },
+        {
+          volumeInfo: {
+            title: "C语言标准库(菜鸟教程)",
+            previewLink: "https://www.runoob.com/cprogramming/c-standard-library.html",
+            imageLinks: {
+              thumbnail: "images/231925-1614093565925d.jpg",
+            },
+            categories: ["C/C++","标准库"],
+          },
+        },
       ];
       break;
     }
     case "ComputerBasics": {
       data = [
+	    {
+          volumeInfo: {
+            title: "计算机综合",
+            previewLink: "https://ng-tech.icu/JavaScript-Series/#/",
+            imageLinks: {
+              thumbnail: "images/000147-16051105074c60.jpg",
+            },
+            categories: ["数据结构","计算机网络","操作系统"],
+          },
+        },
         {
           volumeInfo: {
-            title: "Java 实战",
-            previewLink: "https://ng-tech.icu/Java-Series/#/",
+            title: "labuladong的算法小抄",
+            previewLink: "https://gitee.com/Sao-operation/fucking-algorithm",
             imageLinks: {
-              thumbnail: getCover("Java Series"),
+              thumbnail: "images/224506-1600267506b218.jpg",
             },
             categories: ["数据结构"],
           },
         },
         {
           volumeInfo: {
-            title: "JavaScript 实战",
-            previewLink: "https://ng-tech.icu/JavaScript-Series/#/",
+            title: "计算机网络",
+            previewLink: "# ",
             imageLinks: {
-              thumbnail: getCover("JavaScript Series"),
+              thumbnail: "images/214244-1597671764874d.jpg",
             },
-            categories: ["JavaScript"],
+            categories: ["计算机网络"],
           },
         },
         {
           volumeInfo: {
-            title: "Python 实战",
-            previewLink: "https://ng-tech.icu/ProgrammingLanguage-Series/#/",
+            title: "操作系统",
+            previewLink: "# ",
             imageLinks: {
-              thumbnail: getCover("Python Series"),
+              thumbnail: "images/214347-15917102273d10.jpg",
             },
-            categories: ["Python"],
-          },
-        },
-        {
-          volumeInfo: {
-            title: "Go 实战",
-            previewLink: "https://ng-tech.icu/Go-Series/#/",
-            imageLinks: {
-              thumbnail: getCover("Go Series"),
-            },
-            categories: ["Go"],
-          },
-        },
-        {
-          volumeInfo: {
-            title: "Rust 实战",
-            previewLink: "https://ng-tech.icu/ProgrammingLanguage-Series/#/",
-            imageLinks: {
-              thumbnail: getCover("Rust Series"),
-            },
-            categories: ["Rust"],
+            categories: ["操作系统"],
           },
         },
       ];
