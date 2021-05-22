@@ -17,8 +17,8 @@ let searchBooks = document.getElementById("search-box");
     drawChartBook(id);
   });
 
-  document.querySelector("#foryou").innerHTML =
-    document.querySelector("#foryou").innerHTML +
+  document.querySelector("#About").innerHTML =
+    document.querySelector("#About").innerHTML +
     `
       <section id=${id} class="results">
         <div class="flex">
@@ -68,7 +68,7 @@ const getBooks = async (book) => {
             title: "C Primer Plus",
             previewLink: "https://i.loli.net/2021/05/22/aVY9ij23l7WT5sp.jpg",
             imageLinks: {
-              thumbnail: "https://pic.netbian.com/uploads/allimg/210216/175230-16134691507a8b.jpg",
+              thumbnail: "images/175230-16134691507a8b.jpg",
             },
             categories: ["C/C++"],
           },
