@@ -65,7 +65,7 @@ const getBooks = async (book) => {
       data = [
         {
           volumeInfo: {
-            title: "C Primer Plus",
+            title: "C Primer Plus(未上线)",
             previewLink: "#",
             imageLinks: {
               thumbnail: "images/175230-16134691507a8b.jpg",
@@ -165,7 +165,7 @@ const getBooks = async (book) => {
 	    {
           volumeInfo: {
             title: "计算机综合",
-            previewLink: "https://ng-tech.icu/JavaScript-Series/#/",
+            previewLink: "https://dasydong.gitbook.io/interview/",
             imageLinks: {
               thumbnail: "images/000147-16051105074c60.jpg",
             },
@@ -250,7 +250,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "MySQL45讲",
-            previewLink: "https://ng-tech.icu/SoftwareArchitecture-Series/",
+            previewLink: "https://sao-operation.gitee.io/my-sql45/",
             imageLinks: {
               thumbnail: "images/004448-1571417088f756.jpg",
             },
@@ -380,17 +380,17 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "数据分析",
-            previewLink: "https://ng-tech.icu/Backend-Series/",
+            previewLink: "https://www.yuque.com/choingai/data_analysis",
             imageLinks: {
               thumbnail: "images/184821-15860837017868.jpg",
             },
-            categories: ["业务"],
+            categories: ["数据分析"],
           },
         },
 		{
           volumeInfo: {
             title: "数据仓库建模",
-            previewLink: "https://ng-tech.icu/Backend-Series/",
+            previewLink: "#",
             imageLinks: {
               thumbnail: "images/201845-1580991525bc77.jpg",
             },
@@ -400,7 +400,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "电商数据业务",
-            previewLink: "https://ng-tech.icu/MicroService-Series/",
+            previewLink: "#",
             imageLinks: {
               thumbnail: "images/202121-158479328143e5.jpg",
             },
@@ -415,7 +415,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "聚类",
-            previewLink: "https://ng-tech.icu/DistributedCompute-Series/#/",
+            previewLink: "https://www.yuque.com/choingai/revhng/bl1oz9",
             imageLinks: {
               thumbnail: "images/205154-157762391470ff.jpg",
             },
@@ -425,7 +425,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "分类",
-            previewLink: "https://ng-tech.icu/Database-Series/#/",
+            previewLink: "https://www.yuque.com/choingai/revhng/htqpcv",
             imageLinks: {
               thumbnail: "images/211159-15736507190a1c.jpg",
             },
@@ -435,7 +435,7 @@ const getBooks = async (book) => {
 		{
           volumeInfo: {
             title: "降维",
-            previewLink: "https://ng-tech.icu/Database-Series/#/",
+            previewLink: "https://www.yuque.com/choingai/revhng/fvgor8",
             imageLinks: {
               thumbnail: "images/214924-1578404964b30b.jpg",
             },
@@ -445,7 +445,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "回归",
-            previewLink: "https://ng-tech.icu/Network-Series/#/",
+            previewLink: "https://www.yuque.com/choingai/revhng/xvwyov",
             imageLinks: {
               thumbnail: "images/215045-1570024245d1ce.jpg",
             },
@@ -465,7 +465,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "神经网络",
-            previewLink: "https://ng-tech.icu/Linux-Series/#/",
+            previewLink: "https://www.yuque.com/choingai/revhng/oi9qd1",
             imageLinks: {
               thumbnail: "images/223544-15848013445019.jpg",
             },
@@ -535,7 +535,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "HTML与CSS",
-            previewLink: "https://ng-tech.icu/Product-Series/#/",
+            previewLink: "https://www.runoob.com/html/html5-intro.html",
             imageLinks: {
               thumbnail: "images/225854-15700283344428.jpg"
             },
@@ -545,7 +545,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "JavaScript",
-            previewLink: "https://ng-tech.icu/Business-Series/#/",
+            previewLink: "https://www.nowcoder.com/tutorial/10009/93ea8bfac75844888a914d1b8741b791",
             imageLinks: {
               thumbnail: "images/230143-1577977303d98f.jpg",
             },
@@ -590,7 +590,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "开发工具",
-            previewLink: "https://ng-tech.icu/Product-Series/#/",
+            previewLink: "https://www.yuque.com/choingai/rn5vsl#",
             imageLinks: {
               thumbnail: "images/232140-15711529009394.jpg",
             },
@@ -599,8 +599,8 @@ const getBooks = async (book) => {
         },	
         {
           volumeInfo: {
-            title: "财务分析",
-            previewLink: "https://ng-tech.icu/Product-Series/#/",
+            title: "财务分析(未上线)",
+            previewLink: "#",
             imageLinks: {
               thumbnail: "images/232459-1575645899a766.jpg",
             },
@@ -609,8 +609,8 @@ const getBooks = async (book) => {
         },
         {
           volumeInfo: {
-            title: "创新与创业思考",
-            previewLink: "https://ng-tech.icu/Industry-Series/#/",
+            title: "创新与创业思考(未上线)",
+            previewLink: "#",
             imageLinks: {
               thumbnail: "images/232608-1585581968a1f2.jpg",
             },
