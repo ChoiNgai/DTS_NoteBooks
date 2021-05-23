@@ -220,9 +220,9 @@ const getBooks = async (book) => {
 	    {
           volumeInfo: {
             title: "SQL教程(W3school)",
-            previewLink: "#",
+            previewLink: "https://www.w3school.com.cn/sql/index.asp",
             imageLinks: {
-              thumbnail: getCover("Design Patterns"),
+              thumbnail: "images/000027-1577980827ddbf.jpg",
             },
             categories: ["SQL"],
           },
@@ -232,7 +232,7 @@ const getBooks = async (book) => {
             title: "MySQL必知必会",
             previewLink: "#",
             imageLinks: {
-              thumbnail: getCover("Design Patterns"),
+              thumbnail: "images/002135-1577290895ab81.jpg",
             },
             categories: ["SQL", "MySQL"],
           },
@@ -242,7 +242,7 @@ const getBooks = async (book) => {
             title: "SQL进阶教程",
             previewLink: "#",
             imageLinks: {
-              thumbnail: getCover("Algorithm & DataStructure"),
+              thumbnail: "images/002250-1570292570e101.jpg",
             },
             categories: ["SQL", "MySQL"],
           },
@@ -252,7 +252,7 @@ const getBooks = async (book) => {
             title: "MySQL45讲",
             previewLink: "https://ng-tech.icu/SoftwareArchitecture-Series/",
             imageLinks: {
-              thumbnail: getCover("Software Architecture"),
+              thumbnail: "images/004448-1571417088f756.jpg",
             },
             categories: ["MySQL"],
           },
@@ -262,17 +262,17 @@ const getBooks = async (book) => {
             title: "高性能MySQL第三版",
             previewLink: "https://ng-tech.icu/SoftwareEngineering-Series/",
             imageLinks: {
-              thumbnail: getCover("Refactor"),
+              thumbnail: "images/005846-1577293126bce8.jpg",
             },
             categories: ["MySQL"],
           },
         },
 		{
           volumeInfo: {
-            title: "MySQL技术内幕:InnoDB存储引擎(第2版)",
+            title: "InnoDB存储引擎",
             previewLink: "https://ng-tech.icu/SoftwareEngineering-Series/",
             imageLinks: {
-              thumbnail: getCover("Refactor"),
+              thumbnail: "images/010942-15772937827d2b.jpg",
             },
             categories: ["MySQL"],
           },
@@ -287,7 +287,7 @@ const getBooks = async (book) => {
             title: "大数据概念及框架体系",
             previewLink: "https://ng-tech.icu/Frontend-Series/",
             imageLinks: {
-              thumbnail: getCover("Data Visualization"),
+              thumbnail: "images/090303-15687685838243.jpg",
             },
             categories: ["Hadoop"],
           },
@@ -297,7 +297,7 @@ const getBooks = async (book) => {
             title: "Hadoop",
             previewLink: "https://ng-tech.icu/Web-Series/",
             imageLinks: {
-              thumbnail: getCover("Web Series"),
+              thumbnail: "images/093952-15768923927311.jpg",
             },
             categories: ["大数据框架"],
           },
@@ -307,7 +307,7 @@ const getBooks = async (book) => {
             title: "HDFS",
             previewLink: "https://ng-tech.icu/React-Series/",
             imageLinks: {
-              thumbnail: getCover("React"),
+              thumbnail: "images/094305-157689258505de.jpg",
             },
             categories: ["Hadoop","分布式存储"],
           },
@@ -317,7 +317,7 @@ const getBooks = async (book) => {
             title: "yarn",
             previewLink: "https://ng-tech.icu/Node-Series/",
             imageLinks: {
-              thumbnail: getCover("Node Series"),
+              thumbnail: "images/095355-1576893235e846.jpg",
             },
             categories: ["Hadoop"],
           },
@@ -327,7 +327,7 @@ const getBooks = async (book) => {
             title: "Zookeeper",
             previewLink: "https://ng-tech.icu/CGDataVis-Series/",
             imageLinks: {
-              thumbnail: getCover("视觉与可视化"),
+              thumbnail: "images/095928-1576893568c5b3.jpg",
             },
             categories: ["Hadoop"],
           },
@@ -337,7 +337,7 @@ const getBooks = async (book) => {
             title: "Hive",
             previewLink: "https://ng-tech.icu/CGDataVis-Series/",
             imageLinks: {
-              thumbnail: getCover("视觉与可视化"),
+              thumbnail: "images/120846-15779381268161.jpg",
             },
             categories: ["Hadoop","离线计算"],
           },
@@ -347,7 +347,7 @@ const getBooks = async (book) => {
             title: "HBase",
             previewLink: "https://ng-tech.icu/CGDataVis-Series/",
             imageLinks: {
-              thumbnail: getCover("视觉与可视化"),
+              thumbnail: "images/150631-15711231918639.jpg",
             },
             categories: ["Hadoop", "分布式数据库"],
           },
@@ -357,7 +357,7 @@ const getBooks = async (book) => {
             title: "Kraft",
             previewLink: "https://ng-tech.icu/CGDataVis-Series/",
             imageLinks: {
-              thumbnail: getCover("视觉与可视化"),
+              thumbnail: "images/180809-1568628489c3bd.jpg",
             },
             categories: ["消息系统"],
           },
@@ -367,7 +367,7 @@ const getBooks = async (book) => {
             title: "Spark",
             previewLink: "https://ng-tech.icu/CGDataVis-Series/",
             imageLinks: {
-              thumbnail: getCover("视觉与可视化"),
+              thumbnail: "images/183943-15810719837bba.jpg",
             },
             categories: ["大数据框架", "实时计算"],
           },
@@ -382,7 +382,7 @@ const getBooks = async (book) => {
             title: "数据分析",
             previewLink: "https://ng-tech.icu/Backend-Series/",
             imageLinks: {
-              thumbnail: getCover("Backend Series"),
+              thumbnail: "images/184821-15860837017868.jpg",
             },
             categories: ["业务"],
           },
@@ -392,7 +392,7 @@ const getBooks = async (book) => {
             title: "数据仓库建模",
             previewLink: "https://ng-tech.icu/Backend-Series/",
             imageLinks: {
-              thumbnail: getCover("Backend Series"),
+              thumbnail: "images/201845-1580991525bc77.jpg",
             },
             categories: ["数据仓库"],
           },
@@ -402,7 +402,7 @@ const getBooks = async (book) => {
             title: "电商数据业务",
             previewLink: "https://ng-tech.icu/MicroService-Series/",
             imageLinks: {
-              thumbnail: getCover("MicroService Series"),
+              thumbnail: "images/202121-158479328143e5.jpg",
             },
             categories: ["业务"],
           },
@@ -417,7 +417,7 @@ const getBooks = async (book) => {
             title: "聚类",
             previewLink: "https://ng-tech.icu/DistributedCompute-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Distributed Compute Series"),
+              thumbnail: "images/205154-157762391470ff.jpg",
             },
             categories: ["统计学"],
           },
@@ -427,7 +427,7 @@ const getBooks = async (book) => {
             title: "分类",
             previewLink: "https://ng-tech.icu/Database-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Database Series"),
+              thumbnail: "images/211159-15736507190a1c.jpg",
             },
             categories: ["统计学"],
           },
@@ -437,7 +437,7 @@ const getBooks = async (book) => {
             title: "降维",
             previewLink: "https://ng-tech.icu/Database-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Database Series"),
+              thumbnail: "images/214924-1578404964b30b.jpg",
             },
             categories: ["统计学"],
           },
@@ -447,7 +447,7 @@ const getBooks = async (book) => {
             title: "回归",
             previewLink: "https://ng-tech.icu/Network-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Network Series"),
+              thumbnail: "images/215045-1570024245d1ce.jpg",
             },
             categories: ["统计学"],
           },
@@ -457,7 +457,7 @@ const getBooks = async (book) => {
             title: "集成学习",
             previewLink: "https://ng-tech.icu/Cloud-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Cloud Series"),
+              thumbnail: "images/215153-1573134713cb33.jpg",
             },
             categories: ["统计学"],
           },
@@ -467,7 +467,7 @@ const getBooks = async (book) => {
             title: "神经网络",
             previewLink: "https://ng-tech.icu/Linux-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Linux Series"),
+              thumbnail: "images/223544-15848013445019.jpg",
             },
             categories: ["深度学习"],
           },
@@ -477,7 +477,7 @@ const getBooks = async (book) => {
             title: "群智能优化",
             previewLink: "https://ng-tech.icu/Concurrent-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Concurrent Series"),
+              thumbnail: "images/224016-1568644816974e.jpg",
             },
             categories: ["计算数学"],
           },
@@ -487,7 +487,7 @@ const getBooks = async (book) => {
             title: "sklearn中文文档",
             previewLink: "https://www.cntofu.com/book/170/index.html",
             imageLinks: {
-              thumbnail: getCover("Concurrent Series"),
+              thumbnail: "images/224414-1585406654d96b.jpg",
             },
             categories: ["Python"],
           },
@@ -502,7 +502,7 @@ const getBooks = async (book) => {
             title: "Nginx中文文档",
             previewLink: "https://www.nginx.cn/doc/",
             imageLinks: {
-              thumbnail: getCover("Mathematics Series"),
+              thumbnail: "images/224748-15755572688942.jpg",
             },
             categories: ["Nginx"],
           },
@@ -512,7 +512,7 @@ const getBooks = async (book) => {
             title: "Docker",
             previewLink: "http://www.dockerinfo.net/document",
             imageLinks: {
-              thumbnail: getCover("Data Series"),
+              thumbnail: "images/224821-1588862901f9c3.jpg",
             },
             categories: ["docker"],
           },
@@ -522,7 +522,7 @@ const getBooks = async (book) => {
             title: "kubernetes",
             previewLink: "http://github.com/caicloud/kube-ladder",
             imageLinks: {
-              thumbnail: getCover("Data Series"),
+              thumbnail: "images/224938-15686453785033.jpg",
             },
             categories: ["k8s"],
           },
@@ -537,9 +537,9 @@ const getBooks = async (book) => {
             title: "HTML与CSS",
             previewLink: "https://ng-tech.icu/Product-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Product Series"),
+              thumbnail: "images/225854-15700283344428.jpg"
             },
-            categories: ["Product Series"],
+            categories: ["Web前端"],
           },
         },
         {
@@ -547,9 +547,9 @@ const getBooks = async (book) => {
             title: "JavaScript",
             previewLink: "https://ng-tech.icu/Business-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Business Series"),
+              thumbnail: "images/230143-1577977303d98f.jpg",
             },
-            categories: ["Business Series"],
+            categories: ["Web前端"],
           },
         },
         {
@@ -557,9 +557,9 @@ const getBooks = async (book) => {
             title: "Vue教程",
             previewLink: "https://cn.vuejs.org/v2/guide/",
             imageLinks: {
-              thumbnail: getCover("Industry Series"),
+              thumbnail: "images/230446-1580310286dcf8.jpg",
             },
-            categories: ["Industry Series"],
+            categories: ["Web前端"],
           },
         },
 		{
@@ -567,9 +567,9 @@ const getBooks = async (book) => {
             title: "QT",
             previewLink: "https://ng-tech.icu/Product-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Product Series"),
+              thumbnail: "images/230840-1585408120e886.jpg",
             },
-            categories: ["Product Series"],
+            categories: ["PC客户端"],
           },
         },
         {
@@ -577,9 +577,9 @@ const getBooks = async (book) => {
             title: "MATLAB GUI",
             previewLink: "https://ng-tech.icu/Business-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Business Series"),
+              thumbnail: "images/231336-1574954016b4d7.jpg",
             },
-            categories: ["Business Series"],
+            categories: ["PC客户端"],
           },
         },
       ];
@@ -592,9 +592,9 @@ const getBooks = async (book) => {
             title: "开发工具",
             previewLink: "https://ng-tech.icu/Product-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Product Series"),
+              thumbnail: "images/232140-15711529009394.jpg",
             },
-            categories: ["Product Series"],
+            categories: ["程序员"],
           },
         },	
         {
@@ -602,9 +602,9 @@ const getBooks = async (book) => {
             title: "财务分析",
             previewLink: "https://ng-tech.icu/Product-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Product Series"),
+              thumbnail: "images/232459-1575645899a766.jpg",
             },
-            categories: ["Product Series"],
+            categories: ["金融"],
           },
         },
         {
@@ -612,9 +612,9 @@ const getBooks = async (book) => {
             title: "创新与创业思考",
             previewLink: "https://ng-tech.icu/Industry-Series/#/",
             imageLinks: {
-              thumbnail: getCover("Industry Series"),
+              thumbnail: "images/232608-1585581968a1f2.jpg",
             },
-            categories: ["Industry Series"],
+            categories: ["风险与收益"],
           },
         },
       ];
