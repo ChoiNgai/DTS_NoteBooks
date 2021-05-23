@@ -96,17 +96,6 @@ const getBooks = async (book) => {
         },
 		{
           volumeInfo: {
-            title: "Python速学笔记(廖雪峰)",
-            previewLink:
-              "https://www.liaoxuefeng.com/wiki/1016959663602400",
-            imageLinks: {
-              thumbnail: "images/233601-1611588961e251.jpg",
-            },
-            categories: ["C/C++"],
-          },
-        },
-		{
-          volumeInfo: {
             title: "MATLAB中文文档",
             previewLink:
               "https://ww2.mathworks.cn/help/matlab/index.html",
@@ -125,6 +114,17 @@ const getBooks = async (book) => {
               thumbnail: "images/235859-1596815939993e.jpg",
             },
             categories: ["R"],
+          },
+        },
+		{
+          volumeInfo: {
+            title: "Python速学笔记(廖雪峰)",
+            previewLink:
+              "https://www.liaoxuefeng.com/wiki/1016959663602400",
+            imageLinks: {
+              thumbnail: "images/233601-1611588961e251.jpg",
+            },
+            categories: ["C/C++"],
           },
         },
         {
