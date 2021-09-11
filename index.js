@@ -446,7 +446,7 @@ const getBooks = async (book) => {
             title: "Hive调优",
             previewLink: "https://www.jianguoyun.com/p/DZe2aLMQkrXqCRjrgI4E",
             imageLinks: {
-              thumbnail: "images/202121-158479328143e5.jpg",
+              thumbnail: "images/7c540c227b962f8dd894b933c4a7125.jpg",
             },
             categories: ["SQL"],
           },
