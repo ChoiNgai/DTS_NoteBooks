@@ -99,7 +99,7 @@ const getBooks = async (book) => {
         },
         {
           volumeInfo: {
-            title: "C语言教程(C语言中文网)",
+            title: "C语言入门",
             previewLink: "http://c.biancheng.net/c/",
             imageLinks: {
               thumbnail: "images/232817-1618327697f103.jpg",
@@ -163,7 +163,7 @@ const getBooks = async (book) => {
         },
         {
           volumeInfo: {
-            title: "C语言教程(菜鸟教程)",
+            title: "C语言教程",
             previewLink: "https://www.runoob.com/cprogramming/c-tutorial.html",
             imageLinks: {
               thumbnail: "images/232024-161409362427c1.jpg",
@@ -208,7 +208,7 @@ const getBooks = async (book) => {
         },
         {
           volumeInfo: {
-            title: "LeetCode-Solutions-in-Good-Style",
+            title: "LeetCode题解集合",
             previewLink: "https://github.com/liweiwei1419/LeetCode-Solutions-in-Good-Style",
             imageLinks: {
               thumbnail: "images/000926-1629562166e568.jpg",
@@ -223,12 +223,12 @@ const getBooks = async (book) => {
             imageLinks: {
               thumbnail: "images/000147-16051105074c60.jpg",
             },
-            categories: ["数据结构","计算机网络","操作系统"],
+            categories: ["数据结构","计算机网络"],
           },
         },
         {
           volumeInfo: {
-            title: "计算机网络总结(菜鸟教程)",
+            title: "计算机网络总结",
             previewLink: "https://www.runoob.com/w3cnote/summary-of-network.html",
             imageLinks: {
               thumbnail: "images/214244-1597671764874d.jpg",
@@ -303,8 +303,8 @@ const getBooks = async (book) => {
         },
         {
           volumeInfo: {
-            title: "高性能MySQL第三版",
-            previewLink: "https://ng-tech.icu/SoftwareEngineering-Series/",
+            title: "高性能MySQL",
+            previewLink: "https://www.jianguoyun.com/p/DYjjHdIQkrXqCRjqgI4E",
             imageLinks: {
               thumbnail: "images/005846-1577293126bce8.jpg",
             },
@@ -314,7 +314,7 @@ const getBooks = async (book) => {
 		{
           volumeInfo: {
             title: "InnoDB存储引擎",
-            previewLink: "https://ng-tech.icu/SoftwareEngineering-Series/",
+            previewLink: "https://www.jianguoyun.com/p/DUjezqMQkrXqCRjngI4E",
             imageLinks: {
               thumbnail: "images/010942-15772937827d2b.jpg",
             },
@@ -379,7 +379,7 @@ const getBooks = async (book) => {
 		{
           volumeInfo: {
             title: "Hive",
-            previewLink: "https://notebook.memorydrive.online/",
+            previewLink: "https://www.jianguoyun.com/p/Df4AsBkQkrXqCRjpgI4E",
             imageLinks: {
               thumbnail: "images/120846-15779381268161.jpg",
             },
@@ -399,7 +399,7 @@ const getBooks = async (book) => {
 		{
           volumeInfo: {
             title: "Kafka",
-            previewLink: "https://notebook.memorydrive.online/",
+            previewLink: "https://kafka.apachecn.org/",
             imageLinks: {
               thumbnail: "images/180809-1568628489c3bd.jpg",
             },
@@ -409,7 +409,7 @@ const getBooks = async (book) => {
 		{
           volumeInfo: {
             title: "Spark",
-            previewLink: "https://notebook.memorydrive.online/",
+            previewLink: "http://spark.apachecn.org/#/",
             imageLinks: {
               thumbnail: "images/183943-15810719837bba.jpg",
             },
@@ -423,32 +423,52 @@ const getBooks = async (book) => {
       data = [
         {
           volumeInfo: {
-            title: "数据分析",
-            previewLink: "https://www.yuque.com/choingai/data_analysis",
+            title: "数仓基础",
+            previewLink: "https://www.jianguoyun.com/p/DQ-H9e4QkrXqCRjcgI4E",
             imageLinks: {
               thumbnail: "images/184821-15860837017868.jpg",
-            },
-            categories: ["数据分析"],
-          },
-        },
-		{
-          volumeInfo: {
-            title: "数据仓库建模",
-            previewLink: "#",
-            imageLinks: {
-              thumbnail: "images/201845-1580991525bc77.jpg",
             },
             categories: ["数据仓库"],
           },
         },
-        {
+		{
           volumeInfo: {
-            title: "电商数据业务",
-            previewLink: "#",
+            title: "Hive SQL",
+            previewLink: "https://www.jianguoyun.com/p/DWb0lxEQkrXqCRjlgI4E",
             imageLinks: {
               thumbnail: "images/202121-158479328143e5.jpg",
             },
-            categories: ["业务"],
+            categories: ["SQL"],
+          },
+        },
+		{
+          volumeInfo: {
+            title: "Hive调优",
+            previewLink: "https://www.jianguoyun.com/p/DZe2aLMQkrXqCRjrgI4E",
+            imageLinks: {
+              thumbnail: "images/202121-158479328143e5.jpg",
+            },
+            categories: ["SQL"],
+          },
+        },
+		{
+          volumeInfo: {
+            title: "血缘关系管理平台",
+            previewLink: "https://sqlflow.gudusoft.com/#/",
+            imageLinks: {
+              thumbnail: "images/224506-1600267506b218.jpg",
+            },
+            categories: ["数据仓库"],
+          },
+        },
+		{
+          volumeInfo: {
+            title: "数据分析",
+            previewLink: "https://www.yuque.com/choingai/data_analysis",
+            imageLinks: {
+              thumbnail: "images/201845-1580991525bc77.jpg",
+            },
+            categories: ["数据分析"],
           },
         },
       ];
@@ -498,8 +518,8 @@ const getBooks = async (book) => {
         },
         {
           volumeInfo: {
-            title: "集成学习",
-            previewLink: "https://ng-tech.icu/Cloud-Series/#/",
+            title: "集成学习（未上线）",
+            previewLink: "#",
             imageLinks: {
               thumbnail: "images/215153-1573134713cb33.jpg",
             },
@@ -518,8 +538,8 @@ const getBooks = async (book) => {
         },
         {
           volumeInfo: {
-            title: "群智能优化",
-            previewLink: "https://ng-tech.icu/Concurrent-Series/#/",
+            title: "群智能优化（未上线）",
+            previewLink: "#",
             imageLinks: {
               thumbnail: "images/224016-1568644816974e.jpg",
             },
