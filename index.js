@@ -191,7 +191,7 @@ const getBooks = async (book) => {
             title: "labuladong的算法小抄",
             previewLink: "https://labuladong.gitee.io/algo/",
             imageLinks: {
-              thumbnail: "images/224506-1600267506b218.jpg",
+              thumbnail: "images/223855-16292975352254.jpg",
             },
             categories: ["数据结构"],
           },
@@ -201,7 +201,7 @@ const getBooks = async (book) => {
             title: "算法通关之路",
             previewLink: "https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/",
             imageLinks: {
-              thumbnail: "images/001202-1629562322acef",
+              thumbnail: "images/001202-1629562322acef.jpg",
             },
             categories: ["数据结构"],
           },
@@ -211,7 +211,7 @@ const getBooks = async (book) => {
             title: "LeetCode-Solutions-in-Good-Style",
             previewLink: "https://github.com/liweiwei1419/LeetCode-Solutions-in-Good-Style",
             imageLinks: {
-              thumbnail: "images/000926-1629562166e568",
+              thumbnail: "images/000926-1629562166e568.jpg",
             },
             categories: ["数据结构"],
           },
