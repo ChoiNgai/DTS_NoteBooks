@@ -7,7 +7,7 @@ let searchBooks = document.getElementById("search-box");
   { id: "ComputerBasics",title: "计算机基础(数据结构、计算机网络、操作系统)",icon: "",},
   { id: "DataBase", title: "数据库(MySQL、Redis、TiDB)", icon: "" },
   { id: "BigData", title: "大数据框架与组件(Hadoop、Hive、Zookeeper、Spark...)", icon: "" },
-  { id: "DataService", title: "数据业务", icon: "" },
+  { id: "DataWarehouse", title: "数据仓库", icon: "" },
   {id: "MachineLearning",title: "机器学习(聚类、分类、降维、神经网络...)",icon: "",},
   { id: "SRE", title: "运维开发", icon: "" },
   { id: "FrontEnd", title: "前端", icon: "" },
@@ -16,17 +16,15 @@ let searchBooks = document.getElementById("search-box");
   document.addEventListener("DOMContentLoaded", () => {
     drawChartBook(id);
   });
-
+  
+  /** 去除无效的箭头 */
   document.querySelector("#About").innerHTML =
     document.querySelector("#About").innerHTML +
     `
       <section id=${id} class="results">
         <div class="flex">
           <h1 class="section-title">${title}</h1>
-          <div>
-            <button id="${id}-prev" class="pagination prev" onclick="prev('${id}')">◀</button>
-            <button id="${id}-next" class="pagination next" onclick="next('${id}')">▶</button>
-          </div>
+		  
         </div>
         <div class="list-book ${id} categories">
           <div class='prompt'>
@@ -37,6 +35,32 @@ let searchBooks = document.getElementById("search-box");
         <div class="fade right"></div>
       </section>
   `;
+  
+/** 原版 */
+/**
+  document.querySelector("#About").innerHTML =
+    document.querySelector("#About").innerHTML +
+    `
+      <section id=${id} class="results">
+        <div class="flex">
+          <h1 class="section-title">${title}</h1>
+          <div>
+            <button id="${id}-prev" class="pagination prev" onclick="prev('${id}')">◀</button>
+            <button id="${id}-next" class="pagination next" onclick="next('${id}')">▶</button>
+          </div>
+		  
+        </div>
+        <div class="list-book ${id} categories">
+          <div class='prompt'>
+            <div class="loader"></div>
+          </div>
+        </div>
+        <div class="fade left"></div>
+        <div class="fade right"></div>
+      </section>
+  `;
+**/
+
 });
 
 /** @end 添加元素 */
@@ -118,7 +142,7 @@ const getBooks = async (book) => {
         },
 		{
           volumeInfo: {
-            title: "Python速学笔记(廖雪峰)",
+            title: "Python速学笔记",
             previewLink:
               "https://www.liaoxuefeng.com/wiki/1016959663602400",
             imageLinks: {
@@ -129,7 +153,7 @@ const getBooks = async (book) => {
         },
         {
           volumeInfo: {
-            title: "C++教程(C语言中文网)",
+            title: "C++教程",
             previewLink: "http://c.biancheng.net/c/",
             imageLinks: {
               thumbnail: "images/204113-161028247361da.jpg",
@@ -149,7 +173,7 @@ const getBooks = async (book) => {
         },
         {
           volumeInfo: {
-            title: "C语言标准库(菜鸟教程)",
+            title: "C语言标准库",
             previewLink: "https://www.runoob.com/cprogramming/c-standard-library.html",
             imageLinks: {
               thumbnail: "images/231925-1614093565925d.jpg",
@@ -162,6 +186,36 @@ const getBooks = async (book) => {
     }
     case "ComputerBasics": {
       data = [
+        {
+          volumeInfo: {
+            title: "labuladong的算法小抄",
+            previewLink: "https://labuladong.gitee.io/algo/",
+            imageLinks: {
+              thumbnail: "images/224506-1600267506b218.jpg",
+            },
+            categories: ["数据结构"],
+          },
+        },
+        {
+          volumeInfo: {
+            title: "算法通关之路",
+            previewLink: "https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/",
+            imageLinks: {
+              thumbnail: "images/001202-1629562322acef",
+            },
+            categories: ["数据结构"],
+          },
+        },
+        {
+          volumeInfo: {
+            title: "LeetCode-Solutions-in-Good-Style",
+            previewLink: "https://github.com/liweiwei1419/LeetCode-Solutions-in-Good-Style",
+            imageLinks: {
+              thumbnail: "images/000926-1629562166e568",
+            },
+            categories: ["数据结构"],
+          },
+        },
 	    {
           volumeInfo: {
             title: "计算机综合",
@@ -170,16 +224,6 @@ const getBooks = async (book) => {
               thumbnail: "images/000147-16051105074c60.jpg",
             },
             categories: ["数据结构","计算机网络","操作系统"],
-          },
-        },
-        {
-          volumeInfo: {
-            title: "labuladong的算法小抄",
-            previewLink: "https://gitee.com/Sao-operation/fucking-algorithm",
-            imageLinks: {
-              thumbnail: "images/224506-1600267506b218.jpg",
-            },
-            categories: ["数据结构"],
           },
         },
         {
@@ -285,7 +329,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "大数据概念及框架体系",
-            previewLink: "https://ng-tech.icu/Frontend-Series/",
+            previewLink: "https://notebook.memorydrive.online/",
             imageLinks: {
               thumbnail: "images/090303-15687685838243.jpg",
             },
@@ -295,7 +339,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "Hadoop",
-            previewLink: "https://ng-tech.icu/Web-Series/",
+            previewLink: "https://notebook.memorydrive.online/",
             imageLinks: {
               thumbnail: "images/093952-15768923927311.jpg",
             },
@@ -305,7 +349,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "HDFS",
-            previewLink: "https://ng-tech.icu/React-Series/",
+            previewLink: "https://notebook.memorydrive.online/",
             imageLinks: {
               thumbnail: "images/094305-157689258505de.jpg",
             },
@@ -315,7 +359,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "yarn",
-            previewLink: "https://ng-tech.icu/Node-Series/",
+            previewLink: "https://notebook.memorydrive.online/",
             imageLinks: {
               thumbnail: "images/095355-1576893235e846.jpg",
             },
@@ -325,7 +369,7 @@ const getBooks = async (book) => {
         {
           volumeInfo: {
             title: "Zookeeper",
-            previewLink: "https://ng-tech.icu/CGDataVis-Series/",
+            previewLink: "https://notebook.memorydrive.online/",
             imageLinks: {
               thumbnail: "images/095928-1576893568c5b3.jpg",
             },
@@ -335,7 +379,7 @@ const getBooks = async (book) => {
 		{
           volumeInfo: {
             title: "Hive",
-            previewLink: "https://ng-tech.icu/CGDataVis-Series/",
+            previewLink: "https://notebook.memorydrive.online/",
             imageLinks: {
               thumbnail: "images/120846-15779381268161.jpg",
             },
@@ -345,7 +389,7 @@ const getBooks = async (book) => {
 		{
           volumeInfo: {
             title: "HBase",
-            previewLink: "https://ng-tech.icu/CGDataVis-Series/",
+            previewLink: "https://notebook.memorydrive.online/",
             imageLinks: {
               thumbnail: "images/150631-15711231918639.jpg",
             },
@@ -354,8 +398,8 @@ const getBooks = async (book) => {
         },
 		{
           volumeInfo: {
-            title: "Kraft",
-            previewLink: "https://ng-tech.icu/CGDataVis-Series/",
+            title: "Kafka",
+            previewLink: "https://notebook.memorydrive.online/",
             imageLinks: {
               thumbnail: "images/180809-1568628489c3bd.jpg",
             },
@@ -365,7 +409,7 @@ const getBooks = async (book) => {
 		{
           volumeInfo: {
             title: "Spark",
-            previewLink: "https://ng-tech.icu/CGDataVis-Series/",
+            previewLink: "https://notebook.memorydrive.online/",
             imageLinks: {
               thumbnail: "images/183943-15810719837bba.jpg",
             },
@@ -375,7 +419,7 @@ const getBooks = async (book) => {
       ];
       break;
     }
-    case "DataService": {
+    case "DataWarehouse": {
       data = [
         {
           volumeInfo: {
@@ -564,8 +608,8 @@ const getBooks = async (book) => {
         },
 		{
           volumeInfo: {
-            title: "QT",
-            previewLink: "https://ng-tech.icu/Product-Series/#/",
+            title: "PyQT",
+            previewLink: "http://code.py40.com/pyqt5/",
             imageLinks: {
               thumbnail: "images/230840-1585408120e886.jpg",
             },
@@ -574,8 +618,8 @@ const getBooks = async (book) => {
         },
         {
           volumeInfo: {
-            title: "MATLAB GUI",
-            previewLink: "https://ng-tech.icu/Business-Series/#/",
+            title: "MATLAB App Designer",
+            previewLink: "https://ww2.mathworks.cn/help/matlab/gui-development.html?s_tid=CRUX_lftnav",
             imageLinks: {
               thumbnail: "images/231336-1574954016b4d7.jpg",
             },
