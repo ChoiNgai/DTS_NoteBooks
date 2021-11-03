@@ -321,6 +321,26 @@ const getBooks = async (book) => {
             categories: ["MySQL"],
           },
         },
+		{
+          volumeInfo: {
+            title: "TiDB博客",
+            previewLink: "https://pingcap.com/zh/blog",
+            imageLinks: {
+              thumbnail: "images/233456-1587742496b804.jpg",
+            },
+            categories: ["MySQL"],
+          },
+        },
+		{
+          volumeInfo: {
+            title: "TiDB in Action",
+            previewLink: "https://book.tidb.io/",
+            imageLinks: {
+              thumbnail: "images/234314-1585582994560e.jpg",
+            },
+            categories: ["MySQL"],
+          },
+        }
       ];
       break;
     }
